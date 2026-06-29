@@ -1,8 +1,7 @@
 import com.github.TebogoP.StringUtils;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class StringUtilsTest {
     @Test
@@ -36,5 +35,13 @@ public class StringUtilsTest {
         StringUtils stringUtilsObj = new StringUtils();
         String result  = stringUtilsObj.reverse(word);
         assertFalse(stringUtilsObj.isPalindrome(word,result));
+    }
+
+    @Test
+    public void isRacecarPalindrome(){
+        String word = "racecar";
+        StringUtils stringUtilsObj = new StringUtils();
+        assertEquals("racecar", stringUtilsObj.reverse(word));
+        assertTrue(stringUtilsObj.isPalindrome(word,stringUtilsObj.reverse(word)));
     }
 }
