@@ -1,8 +1,8 @@
-/* Step1: RED - write a failing test
+package Junior;/* Step1: RED - write a failing test
 ** with method that adds two positive numbers
 * */
 
-import com.github.TebogoP.Calculator;
+import com.github.TebogoP.Junior.Calculator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

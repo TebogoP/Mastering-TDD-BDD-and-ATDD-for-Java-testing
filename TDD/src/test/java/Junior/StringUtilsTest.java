@@ -1,4 +1,6 @@
-import com.github.TebogoP.StringUtils;
+package Junior;
+
+import com.github.TebogoP.Junior.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

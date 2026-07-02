@@ -1,4 +1,4 @@
-package com.github.TebogoP;
+package com.github.TebogoP.Junior;
 
 public class StringUtils {
 

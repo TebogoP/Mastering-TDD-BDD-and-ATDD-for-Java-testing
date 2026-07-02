@@ -1,5 +1,5 @@
 //Step 2: GREEN — minimum code to pass
-package com.github.TebogoP;
+package com.github.TebogoP.Junior;
 
 public class Calculator {
 
